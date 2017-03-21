@@ -1,3 +1,5 @@
+'use strict'
+
 const express = require('express')
 const expressHandlebars = require('express-handlebars')
 const http = require('http')

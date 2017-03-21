@@ -1,9 +1,9 @@
-version: "2"
+version: "3"
 
 services:
   web:
     build: .
-    command: nodemon --debug=5858
+    command: nodemon --debug=5858 app.js
     volumes:
     - .:/code
     ports:
