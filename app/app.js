@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
   const message = messages[lineIndex]
 
   lineIndex += 1
-  if (lineIndex > messages.length) {
+  if (lineIndex >= messages.length) {
     lineIndex = 0
   }
 
